@@ -31,3 +31,7 @@ Este projeto está em constante evolução. Caso tenha sugestões de melhorias o
 ## Autor
 
 Este projeto foi desenvolvido por [Simon Assagra Barbosa Araújo Teixeira].
+
+## Prototipação
+
+Segue o link da prototipação no Figma - https://www.figma.com/file/9puAzQ72O19toUjwtY8Neq/Prototipa%C3%A7%C3%A3o-Santri?type=design&node-id=0%3A1&t=kaRgytzpC6UVeHYx-1

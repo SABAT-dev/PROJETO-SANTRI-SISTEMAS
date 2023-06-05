@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Cubics Home</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1><a class="logo" href="/">Cubics</a></h1>
+            <h1><a class="logo" href="index.html">Cubics</a></h1>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -19,12 +22,12 @@
             </div>
 
             <ul class="nav-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Cubos</a></li>
-                <li><a href="/">Lubrificantes</a></li>
-                <li><a href="/">Lançamentos</a></li>
-                <li><a href="/">Depoimentos</a></li>
-                <li><a href="/">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#cubos-id">Cubos</a></li>
+                <li><a href="#lubrificantes-id">Lubrificantes</a></li>
+                <li><a href="#lancamentos-id">Lançamentos</a></li>
+                <li><a href="#depoimentos-id">Depoimentos</a></li>
+                <li><a href="#footer-id">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -43,18 +46,18 @@
         </section>
 
         <section class="flex-imagens">
-            <div class="cubos">
+            <div class="cubos" id="cubos-id">
                 <img src="img/cubos.jpg">
                 <a href="#"><h2>Cubos</h2></a>
                 <p>Explore diferentes tamanhos, níveis de dificuldade e técnicas de resolução para desvendar a magia dos cubos e descobrir a satisfação de conquistar um quebra-cabeça único.</p>
             </div>
-            <div class="lubrificantes">
+            <div class="lubrificantes" id="lubrificantes-id">
                 <img src="img/lubrificante.jpg">
                 <a href="#"><h2>Lubrificantes</h2></a>
                 <p>Maximize o desempenho do seu cubo com nossos lubrificantes especializados. Com apenas algumas gotas, você pode conquistar movimentos rápidos e suaves, eliminando o atrito entre as peças.</p>
             </div>
             <div class="cubos">
-                <img src="img/lancamentos.png">
+                <img src="img/lancamentos.png" id="lancamentos-id">
                 <a href="#"><h2>Lançamentos</h2></a>
                 <p>Explore novas formas, mecanismos de giro e materiais de alta qualidade. Os cubos mais modernos e empolgantes do mercado. Desafio e diversão para o próximo nível!</p>
             </div>
@@ -70,11 +73,181 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+        <div class="titulo-recursos">
+            <h2>Desafie sua mente com o Cubo Mágico: a icônica experiência de quebra-cabeça!</h2>
+        </div>
 
+        <section class="recursos">
+            <div class="recurso1">
+                <img class="imagem-rc1" src="img/recursos-1.png" alt="Recurso 1">
+                <div class="texto-rc1">
+                    <h3>Design durável e suave</h3>
+                    <p>Construído com materiais de alta qualidade, o Cubo Mágico oferece movimentos suaves e durabilidade para garantir uma experiência de resolução agradável.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="recurso2">
+                <img class="imagem-rc2" src="img/recursos-2.jpg" alt="Recurso 2">
+                <div class="texto-rc2">
+                    <h3>Variedade de tamanhos e níveis de dificuldade</h3>
+                    <p>Escolha entre diferentes tamanhos de Cubo Mágico, desde os clássicos 3x3 até os desafiadores 5x5, para se adequar ao seu nível de habilidade e preferência.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="recurso3">
+                <img class="imagem-rc3" src="img/recursos-3.jpg" alt="Recurso 3">
+                <div class="texto-rc3">
+                    <h3>Personalização das cores</h3>
+                    <p>Explore sua criatividade e personalize seu Cubo Mágico com uma ampla gama de adesivos coloridos, permitindo que você crie seu próprio design exclusivo.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="recurso4">
+                <img class="imagem-rc4" src="img/recursos-4.jpg" alt="Recurso 4">
+                <div class="texto-rc4">
+                    <h3>Desenvolvimento cognitivo</h3>
+                    <p>Além de ser um quebra-cabeça divertido, o Cubo Mágico também oferece benefícios cognitivos, como o desenvolvimento do raciocínio lógico, resolução de problemas e habilidades de pensamento crítico.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="recurso5">
+                <img class="imagem-rc5" src="img/recursos-5.jpg" alt="Recurso 5">
+                <div class="texto-rc5">
+                    <h3>Comunidade e competições</h3>
+                    <p>Participe de uma comunidade global apaixonada por Cubo Mágico e teste suas habilidades em competições emocionantes. Conheça outros entusiastas, compartilhe dicas e truques, e desafie-se a alcançar tempos de resolução recordes.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="recurso6">
+                <img class="imagem-rc6" src="img/recursos-6.jpg" alt="Recurso 6">
+                <div class="texto-rc6">
+                    <h3>Adequado para todas as idades</h3>
+                    <p>O Cubo Mágico é um quebra-cabeça que transcende gerações. Tanto crianças quanto adultos podem desfrutar desse desafio cativante e se divertir enquanto exercitam a mente.</p>
+                    <button class="botao" type="submit">Saiba mais</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="depoimentos" id="depoimentos-id">
+            <div class="testimonial mySwiper">
+                <div class="testi-content swiper-wrapper">
+                  <div class="slide swiper-slide">
+                    <img src="img/persona-0.jpg" alt="" class="image" />
+                    <p>
+                        O Cubo Mágico é minha grande paixão. Resolver seus mistérios me traz conquistas e satisfação únicas. Competir, conhecer pessoas incríveis e quebrar recordes fazem parte dessa jornada. Persista, divida o problema em etapas menores e desenvolva estratégias. A comunidade de cubistas é acolhedora e apaixonada. Aproveite cada momento para aprender e compartilhar. Explore o universo do Cubo Mágico, desafie-se e divirta-se. O cubismo é uma jornada de aprendizado e emoção contínuos.
+                    </p>
+        
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+        
+                    <div class="details">
+                      <span class="name">Feliks Zemdegs</span>
+                      <span class="job">Campeão Mundial de Cubo Mágico</span>
+                    </div>
+                  </div>
+
+                  <div class="slide swiper-slide">
+                    <img src="img/persona-1.jpg" alt="" class="image" />
+                    <p>
+                        O Cubo Mágico é uma fonte de inspiração na minha vida. Eu mergulhei em um mundo de possibilidades e superações, encontrando alegria e motivação em resolver cubos. Ao longo de minha jornada como cubista, conheci pessoas incríveis, competi em campeonatos e estabeleci recordes mundiais. O cubismo vai além da resolução de um quebra-cabeça, envolvendo o desenvolvimento de habilidades e superação de limites. A comunidade de cubistas é apaixonada e acolhedora. Sem dúvidas, incentivo os iniciantes a persistirem, aproveitarem cada momento e descobrirem o incrível mundo do Cubo Mágico!
+                    </p>
+        
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+        
+                    <div class="details">
+                      <span class="name">Max Park</span>
+                      <span class="job">Campeão Mundial de Cubo Mágico</span>
+                    </div>
+                  </div>
+
+                  <div class="slide swiper-slide">
+                    <img src="img/persona-2.JPG" alt="" class="image" />
+                    <p>
+                        O Cubo Mágico tem um lugar especial no meu coração. Desde que comecei a desvendar seus movimentos e desafios, fui fisgado por essa incrível arte do cubismo. Resolver um cubo é como embarcar em uma jornada cheia de emoção, concentração e satisfação. Ao longo dos anos, tive a oportunidade de compartilhar minha paixão pelo cubismo através de vídeos, tutoriais e competições. A comunidade de cubistas é uma fonte inesgotável de inspiração e apoio, onde podemos aprender uns com os outros e celebrar as conquistas. O cubismo é mais do que apenas resolver um quebra-cabeça. É uma maneira de desenvolver habilidades cognitivas, paciência e perseverança. Cada solução bem-sucedida traz uma sensação única de superação e motivação para enfrentar novos desafios.
+                    </p>
+        
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Rafael Cinoto</span>
+                        <span class="job">Cubista e YouTuber de Cubismo</span>
+                      </div>
+                    </div>
+
+                    <div class="slide swiper-slide">
+                      <img src="img/persona-3.JPG" alt="" class="image" />
+                      <p>
+                        O Cubo Mágico despertou em mim uma paixão inigualável pela sua complexidade. Cada cubo resolvido representa uma conquista pessoal e horas de dedicação. O cubismo vai além de um quebra-cabeça, é um desafio que desenvolve habilidades e estimula a criatividade. A comunidade de cubistas é inspiradora e acolhedora, um lugar para aprender e compartilhar. Junte-se a nós nesta incrível jornada do Cubo Mágico, explore seu potencial e descubra novas possibilidades.
+                      </p>
+
+                      <i class="bx bxs-quote-alt-left quote-icon"></i>
+        
+                    <div class="details">
+                      <span class="name">Renan Cerpe</span>
+                      <span class="job">Cubista e Entusiasta do Cubo Mágico</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-distributed" id="footer-id">
+
+        <div class="footer-left">
+            <h3>Cubics</h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="#cubos-id">Cubos</a>
+                |
+                <a href="#lubrificantes-id">Lubrificantes</a>
+                |
+                <a href="#lancamentos-id">Lançamentos</a>
+                |
+                <a href="#depoimentos-id">Depoimentos</a>
+                |
+                <a href="#footer-id">Contato</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Cubics</strong>. Todos os direitos reservados</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Rua Cubo Mágico, 1234, Cidade Cubista, País</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+XX XXXX-XXXX</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">info@cubics.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
